@@ -1,0 +1,133 @@
+.fondo_azul{
+	width: 2200px;
+max-height: 600px;
+
+}
+.titulo{
+position: absolute;
+color: white;
+padding-right: auto;
+padding-left: auto;
+text-shadow: 2px 2px 8px white;
+}
+
+
+.perfil{
+width: 250px;
+height: 250px;
+border-radius: 150px;
+position: relative;
+}
+.Header{
+	
+    background-image: url('../img/fondo_azul.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding:1.2em 0;
+}
+.Header-image {
+border: 5px solid white;
+border-radius: 50%;
+}
+.Header-imageContaner{
+    margin: 0;
+}
+.habilidad{
+	text-align: center;
+	font-size: 1em;
+	
+}
+.Header-name,
+.Header-link{
+    color: white;
+}
+.skills{
+	font-size: 2.5em;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+
+
+}
+.Header-link{
+    font-size: 2.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px green;
+}
+
+.Header-name{
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0;
+	text-shadow: 2px 2px 8px black;
+}
+.img-redes{
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
+/* Profile */
+
+.Profile{
+    text-align: center;
+}
+
+.Profile-link{
+    background: orange;
+    border-radius: 2em;
+    color: white;
+    margin-right: .5em;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+.SobreMi{
+	text-align: center;
+	padding-top: 20px;
+}
+.titulo1{
+font-size: 1.5em;
+	
+}
+.botones{padding-top: 150px;}
+.boton{margin: 15px;}
+.titulo2{
+	font-size: 1.8em;
+	color: gray;
+	text-shadow: 2px 2px 8px #CCCCCC;
+}
+.descripcion{
+	 text-align:justify;
+	
+}
+.porcentaje{border-color: green;
+margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.alinear_derecha{
+text-align: left;
+padding-bottom: 15px;
+}
+.texto_especifico{display: inline;
+padding-left: 10px;}
+.texto_habilidad{
+	color:white;
+text-align: left;
+margin-left:5px;
+}
+.color-rojo{
+	color:white;
+	font-size: 1em;
+}
+.bold{ font-weight: bold;}
+.contact{ background-color: #333333; text-align: center;}
+@media screen and (max-width: 700px) {
+ .small-6 {
+width: 100%;
+} 
+.botones {
+ padding-top: 0px;
+} }
