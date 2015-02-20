@@ -118,10 +118,29 @@ padding-left: 10px;}
 text-align: left;
 margin-left:5px;
 }
+.titulo_empleo{font-weight: bold;
+font-size: 1.3em}
 .color-rojo{
 	color:white;
 	font-size: 1em;
 }
+.facebook:hover{
+	content:url("http://juancarlosreyes.azurewebsites.net/img/facebook-icon2.png");
+}
+
+
+.twitter:hover{
+	content:url("http://juancarlosreyes.azurewebsites.net/img/Twitter_alt_42.png");
+}
+
+.linkedin:hover{
+	content:url("http://juancarlosreyes.azurewebsites.net/img/linkedin2.png");
+}
+
+.instagram:hover{
+	content:url("http://juancarlosreyes.azurewebsites.net/img/insta2.png");
+}
+
 .bold{ font-weight: bold;}
 .contact{ background-color: #333333; text-align: center;}
 @media screen and (max-width: 700px) {
